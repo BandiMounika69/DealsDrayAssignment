@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .no-scrollbar::-webkit-scrollbar{
+      display: none;
+    }
+  
+    .bg-employee-home{
+      background: rgba(0,0,0,0.9) url('https://www.fluentu.com/blog/english-kor/wp-content/uploads/sites/32/2016/04/english-greetings.jpg');
+      background-size: cover;
+      background-blend-mode: darken;
+    }
+  }
